@@ -31,5 +31,7 @@ console.log(users.length);
 
 users.push('otro fidel')
 
-users.sort();
+users.sort(); // ordena de fabrica alfabeticamente
 console.log(users)
+
+//

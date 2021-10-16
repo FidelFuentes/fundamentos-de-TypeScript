@@ -30,7 +30,7 @@ var createPic = function (title, date, size) {
 var picture = createPic('mi foto', '2020-03-10', '100*100');
 console.log('picture', picture);
 // tipo de retorno con ts
-function handleError(code, message) {
+function handleError1(code, message) {
     // procesamiento del codigo, mensaje
     if (message === 'error') {
         throw new Error(message + ". code error:" + code);

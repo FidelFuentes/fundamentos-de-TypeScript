@@ -46,7 +46,7 @@ console.log('picture', picture);
 
 // tipo de retorno con ts
 
-function handleError(code:number, message: string): never | string{
+function handleError1(code:number, message: string): never | string{
     // procesamiento del codigo, mensaje
 
     if(message === 'error'){

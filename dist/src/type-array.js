@@ -15,5 +15,6 @@ console.log(pictureTitles[1]);
 console.log(users.length);
 // uso de funciones en arreglos
 users.push('otro fidel');
-users.sort();
+users.sort(); // ordena de fabrica alfabeticamente
 console.log(users);
+//
